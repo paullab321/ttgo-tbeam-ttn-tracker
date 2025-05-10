@@ -11,8 +11,8 @@ Credentials file
 //#define USE_OTAA
 
 #ifdef USE_ABP
-    // Paul Labod's Lab Preperation 
-    
+    // Prepared by Paul Labod, SS 25 
+
     // LoRaWAN NwkSKey, network session key
     static const u1_t PROGMEM NWKSKEY[16] = { 0x12, 0x34, 0x56, 0x78, 0x90, 0xab, 0xcd, 0xef, 0x12, 0x34, 0x56, 0x78, 0x90, 0xab, 0xcd, 0xef };
     // LoRaWAN AppSKey, application session key
